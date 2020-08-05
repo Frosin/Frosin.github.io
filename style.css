@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background-image: url(Img/Azovm.jpg);
+    background-repeat: no-repeat;
+    background-color: #EFDDC9;
+    background-size:cover; /* Картинка полностью заполняет фон */
+    position: fixed;
+    left:0;
+    top: 0;
+    width:100%;
+    height:100%;
+    z-index:-10;
+    
+    
+}
+
+
+
+.main {
+    min-width: 960px;
+    padding-top: 1px;
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+
+/* ----------------------  Header ---------------------------- */ 
+
+
+header{
+    background-color: rgba(0,0,255,0);
+    padding-top: 1px;
+    height: 40em;
+    
+    
+}
+
+/*#ship{
+    background-image: url(Img/shipm.png);
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 240;
+    left: 1000;
+    width: 40px;
+    height: 40px;
+    z-index: -9;
+      animation-name: ship;
+        animation-duration: 30s;
+        animation-iteration-count: infinite;
+        
+    }
+    
+    @keyframes ship{
+        50% {transform: translateX(100px)}
+        100%{transform: translateX(-100px)}
+    } */
+
+    .nav {
+        margin-left: 2em;
+        margin-top: 2em;
+        width: 11em;
+        padding: 1em 0;
+        background-color: rgba(50,50,50,.1);
+        height: auto;
+        
+    }
+
+ .nav__menu{
+    margin: 0;
+    padding: 0 1em;
+    list-style-type: none;
+    line-height: 5em;
+    }
+        
+.nav__menu-item {
+    padding-top: .5em
+    }
+
+.nav__link{
+      padding: .2em;
+      text-decoration: none;
+      color: #333;
+      border: 2px dashed rgba(255, 255, 255, 0);
+       }
+
+
+ .nav__link:hover{
+      border: 2px dashed #333;
+     }
+
+
+
+
+section{
+    background-color: rgba(50,50,50,.6);
+    height: 10em;
+}
+
+
+
+.portfolio{
+   background-color: rgba(50,0,0,.6);
+    
+}
+
+
+
+
+.about{
+    background-color: rgba(0,50,00,.6);
+}
+
+
+
+
+.interesting{
+   background-color: rgba(0,0,50,.6);
+}
+
+
+
+.contacts{
+    background-color: rgba(50,50,50,.6);
+   
+}
+
+
+
+footer {
+    background-color:#333;   
+    position: relative;
+    padding: 3em
+}
+
+
+.signature__text { 
+    
+    font: normal small-caps normal 14pt monospace;
+    color: #EFDDC9;
+    text-align: center;
+    line-height: .8em;
+    padding: .8em;
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    cursor:default;
+    
+}
+
+.nav_border{
+    border: 2px dashed #333;
+}
+
+.signature__text_border{
+    border: 2px dashed #EFDDC9;
+}
+
+
+.signature__text_font {
+     font: normal small-caps normal 14pt monospace;
+}
+
+.nav__menu_font {
+    font: normal small-caps bold 20pt monospace;
+}
+
