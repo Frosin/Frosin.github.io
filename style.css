@@ -62,7 +62,7 @@ header{
     .nav {
         margin-left: 2em;
         margin-top: 2em;
-        width: 11em;
+        width: 14em;
         padding: 1em 0;
         background-color: rgba(50,50,50,.1);
         height: auto;
@@ -97,7 +97,19 @@ header{
 
 section{
     background-color: rgba(50,50,50,.6);
-    height: 10em;
+    padding: 1px;
+    /* height: 25em; */
+}
+
+.text_table{
+    border: 2px dashed #EFDDC9;
+    background-color: rgb(50,50,50,.88);
+    margin: 50px;
+    font: normal small-caps normal 14pt monospace;
+    color: #EFDDC9;
+    line-height: 1.3em;
+    padding: .8em;
+    cursor:default;
 }
 
 
@@ -137,8 +149,7 @@ footer {
 }
 
 
-.signature__text { 
-    
+.signature__text {
     font: normal small-caps normal 14pt monospace;
     color: #EFDDC9;
     text-align: center;
